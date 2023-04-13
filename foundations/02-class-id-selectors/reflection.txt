@@ -1,0 +1,15 @@
+Note:
+I have manage to copy the same style as the outcome.png, but my CSS code is so messy and not good in the eyes of the 
+propessionals. I think i need to go back to understading class and id as to refresh my memory on how to use them 
+properly. 
+
+
+Pointers:
+In this assignment, you really need to pay attetion to the details of the outcom picture. By doing so you will be able 
+to see the difference in text which in my case leads me to assuming that they all have the same font-family style.
+
+With HTML class and id - you can use 2 or more class type using space in between values (syntax: class="class1 
+class2). With id - you can olny use a uniqe id in your page (do not use same id in different elements etc.) you can 
+also add a class property with the id property in the opening tag of the element. 
+
+ENJOY and KEEP WORKING AT IT! 
