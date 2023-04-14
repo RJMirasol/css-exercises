@@ -1,0 +1,12 @@
+Note:
+
+Once again I manage to get the outcome needed to follow 
+but my solution is different from Odins solution. 
+
+Odin used grouping selector and only used one class 
+attribute on both buttons element vs my solution to use 2 
+class for both buttons.
+
+Not sure if having two classes is bad - will have to do 
+research if so. I will keep in mind Odins solution as its 
+more clearer and cleaner!
