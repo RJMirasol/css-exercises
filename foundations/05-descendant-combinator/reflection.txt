@@ -1,0 +1,8 @@
+NOTE:
+
+Managed to solve the assignemnt using the descendant-combinator.
+
+POINTERS:
+
+Make sure you understand and remember what is the syntax for desendant combinator selector. If not you will 
+have to re-read the material in T.O.P website.
