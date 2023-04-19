@@ -1,27 +1,41 @@
 body {
   background: #eee;
   font-family: sans-serif;
+  
 }
 
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  padding: 8px; /* value 8px 0 8px 0; it looks alright but solutions says im incorrect as it should be 8px all round */
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px 8px;
+  margin-bottom: 8px; /* did not put this property instead used .button rule with it */
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  /*margin: 8px 0 8px 0; - not needed as per solutions */
+  padding: 8px;
+  
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  padding: 8px 24px;
+  margin: auto; /*missed adding 0 value on the top & bottom */
 }
