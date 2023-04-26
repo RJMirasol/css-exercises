@@ -1,0 +1,17 @@
+Flex 02 Assignment
+
+Manage to copy the desired outcome but target different rules when in reality the solution is way simplier that what i imagined. In 
+My solution-Flow of thinking :I need to make .header a flex container by adding display: flex; and to align the flex items 
+horizontaly I added justify-content: space-between; due to the desired outcome having space in between. I saw that the logo's box is 
+bigger than the desired outcome so decided to add margin for top and bottom to 6px reduce the size where the solution didnt even 
+touch the .logo rule instead it adds a padding to .header of 8px which solves the issue. I also did try making the .logo a flex item 
+but wasted it since its already inheriting it from the .header. I then turn to the unordered list .ul rule and made it a flex item. 
+I then think of a way to separate the list and manage to remember i can do so by adding the gap: and setting it to 15px (only 
+guesstimate) which solutions shows it was the correct way (only way smaller than my answer). The only thing i didnt do is adding the 
+margin and padding to 0. Well i actualy added padding with 8px (seems to do the job? :)). Did made the anchor tag a flex item as 
+well but looks like its a really wrong move LOL.
+
+Self-note:
+- need to review boxes again to remember how to set padding and margin properlly.
+- do not overcomplate the solution and try to understant whats needed and see if i can make the code more readable and concise.
+- will try my best on the next one :) 
