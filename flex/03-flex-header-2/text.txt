@@ -1,0 +1,14 @@
+03-flex-header-2
+
+Solution/thoughts:
+- first is to set .header the flex container by adding display: flex; and justify-content: space-between, align-items: centre; (which makes all flex items centred vertically and horizontally). I also added padding: 8px; as advised by the instruction
+
+- second is to separate the unordered list item and make then align with all the elements. I have to make the ul flex items so included display: flex;, and gap of 16 px to separate them. The list and the button are not really moving closer to the left and right and I had a hard time remembering how to do it. I read the instructions again. One instruction said "I may have to edit HTML" I then remember on one of the assignment link that I can group flex item by adding another div. I edited the HTML and added div with class sides for ul and sides-right for button. And made them flex item by creating new rule. I then solved the issue to get them closer to either side.
+Just added margin-left at 16px for the ul to space it out and now it looks the same as the desired outcome picture.
+
+SELF-NOTE:
+- remember to not use flex property to all of the selectors as sometimes it only needs to be set up to the parent element.
+
+- I can probably organise the code better - for it to be more readable and pleasing to the eye.
+
+- if you struggled - try and understand the instruction better - get away from the computer - have a breather - and go back with a fresh mind/eye. If nothings happening or you can't still solve it sleep on it and you might have an idea the following day.
