@@ -1,0 +1,22 @@
+04-flex-information Assignment 
+
+Solutions/Thoughts:
+- Every thing should be centered - I have to think of a way to make it happen - I did create new div's for title and info's which will then make all the items a flex items. README.MD instructed that I will need to change the HMTL witch gave me the idea too.
+
+- after the changes with the HMTL file - I then start making the items flex by adding .title-center rule giving it display: flex; justify-content: center; padding-bottom: 32px; and margin 0:
+
+- I then turn my attention to items 1-4 - first by making it a flex items by creating .items rule with dispel flex;, justify-content: space-around; gap: 25px;. (I was mistaken as I used flex: 1; which is not needed)
+
+- due to not Understanding the instruction - also created .img rule to make then Flex Time and to centre them justify-content (which is not needed as well since it is inheriting the property from its parent)
+
+- I manage to solve the creating new div's on each individual infos - the only mistake was I created different class thinking I have to target them separately. I then created a group selector from item-1 to -4 and created them as flex items with properties display: flex; flex-wrap: wrap; justify-content: centre; width: 200px; which made everything looks like the desired outcome.
+
+- only problem is I can't remember how to centre the text - I kept thinking but nothing is coming up so I had to rest for a bit. When I came back I remember it was text so I created a .text rule with property text-align: center; - which solves the issue.
+
+
+Self Note:
+In the solution HTML I should've left the information title as itself a block content and just target the body element and just used text-align: center; - who would know its this simple :(
+
+Try to lessen the use of all the flex attribute and make sure to just use what is needed.
+
+Keep in my if you are targeting all items with same property - just use 1 class name so the code is not messy and will be easier to read - less confusion 
