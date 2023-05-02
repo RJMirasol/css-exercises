@@ -1,10 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* {
+  border: 1px solid red;
+} */
 
 body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+}
+
+/* solutions */
+ul {
+  list-style-type: none; /* this property makes the dots disappear */
+  display: flex;
+  padding: 3px;
+  gap: 10px
+}
+/* solutions */
+a {
+  color: #666;
+  text-decoration: none; /*this makes the underline disappear*/
+}
+/* solutions */
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+/* solutions */
+.content {
+  margin: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
 }
 
 img {
@@ -16,6 +48,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /* solutions */
+  padding: 5px 10px; 
 }
 
 input {
@@ -24,4 +58,10 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/* solutions */
+.footer {
+  align-items: flex-end;
+  background-color: #eeeeee;
 }
